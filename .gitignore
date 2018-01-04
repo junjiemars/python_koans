@@ -4,3 +4,10 @@
 answers
 .hg
 .idea
+
+# virtualenv
+.Python
+bin/
+include/
+lib/
+pip-selfcheck.json
