@@ -11,3 +11,6 @@ bin/
 include/
 lib/
 pip-selfcheck.json
+
+# vscode
+.vscode/
