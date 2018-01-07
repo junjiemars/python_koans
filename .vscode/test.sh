@@ -1,6 +1,6 @@
 #!/bin/bash
 
-workspaceRoot=${workspaceRoot:-`dirname ${PWD}/../`}
+workspaceRoot=${workspaceRoot:-$(cd `dirname ${BASH_SOURCE[0]}`/../ && pwd)}
 
 if ! [[ $PS1 =~ ^\(python_koans\)$ ]]; then
   source ${workspaceRoot}/bin/activate
